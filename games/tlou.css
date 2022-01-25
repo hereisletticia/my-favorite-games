@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+section {
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+section:nth-of-type(1) {
+    background-image: url("https://images6.alphacoders.com/788/788051.jpg");
+}
+
+section:nth-of-type(2) {
+    background-image: url("https://images.hdqwalls.com/download/the-last-of-us-part-2-4k-2020-6b-1920x1080.jpg");   
+}
+
+section:nth-of-type(4) {
+    background-image: url("https://wallpapercave.com/wp/wp1811277.jpg");
+}
+
+section:nth-of-type(6) {
+    background-image: url("https://wallpapertag.com/wallpaper/full/e/3/4/192957-best-last-of-us-wallpaper-1920x1080-mac.jpg");
+}
+
+section:nth-of-type(8) {
+    background-image: url("https://i.playground.ru/p/hvVj687HYh8fhBl2w0992Q.jpeg");
+}
+
+section:nth-of-type(10) {
+    background-image: url("https://4.bp.blogspot.com/-RxAeaGLxObA/U1H3wgWvZ4I/AAAAAAAAzQE/VEzEJWcY1ps/s0/The+Last+Of+Us_HD.jpg");
+}
+
+section p {
+    font-size: 32px;
+    color: #888;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 2%;
+}
